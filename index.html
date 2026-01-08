@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Hra</title>
+</head>
+
+<body>
+<h1>Kámen - nůžky - papír</h1>
+
+<table class="center">
+  <tr>
+    <td><img id="obr1" src="0.png"></td>
+    <td><img id="obr2" src="1.png"></td>
+  </tr>
+
+  <tr>
+    <td>
+      <input id="jmeno1" value="Hráč 1"><br>
+      <button type="button" onclick="barva1('purple')">Fialová</button>
+      <button type="button" onclick="barva1('green')">Zelená</button>
+      <div id="vitez1"></div>
+    </td>
+
+    <td>
+      <input id="jmeno2" value="Hráč 2"><br>
+      <button type="button" onclick="barva2('purple')">Fialová</button>
+      <button type="button" onclick="barva2('green')">Zelená</button>
+      <div id="vitez2"></div>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <button id="hraj" type="button">HRAJ</button>
+    </td>
+  </tr>
+</table>
+</body>
+</html>
